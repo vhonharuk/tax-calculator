@@ -1,0 +1,20 @@
+<mat-list role="list">
+    <mat-list-item role="listitem" class="tax-item">
+        <p>Gross Annual Salary: {{ taxResult.grossAnnualSalary | currency: 'GBP': 'symbol': '1.2-2' }}</p>
+    </mat-list-item>
+    <mat-list-item role="listitem">
+        <p>Gross Monthly Salary: {{ taxResult.grossMonthlySalary | currency: 'GBP': 'symbol': '1.2-2'  }}</p>
+    </mat-list-item>
+    <mat-list-item role="listitem">
+        <p>Net Annual Salary: {{ taxResult.netAnnualSalary | currency: 'GBP': 'symbol': '1.2-2'  }}</p>
+    </mat-list-item>
+    <mat-list-item role="listitem">
+        <p>Net Monthly Salary: {{ taxResult.netMonthlySalary | currency: 'GBP': 'symbol': '1.2-2'  }}</p>
+    </mat-list-item>
+    <mat-list-item role="listitem">
+        <p>Annual Tax Paid: {{ taxResult.annualTaxPaid | currency: 'GBP': 'symbol': '1.2-2'  }}</p>
+    </mat-list-item>
+    <mat-list-item role="listitem">
+        <p>Monthly Tax Paid: {{ taxResult.monthlyTaxPaid | currency: 'GBP': 'symbol': '1.2-2'  }}</p>
+    </mat-list-item>
+</mat-list>

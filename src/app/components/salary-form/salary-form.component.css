@@ -1,0 +1,22 @@
+mat-form-field {
+    margin: 15px;
+    padding-top: 20px;
+}
+
+mat-label {
+    font: 1.5em sans-serif;
+}
+
+mat-error {
+    margin: 15px;
+}
+
+button:disabled{
+    background-color: #555353;
+}
+
+.taxCalculationForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
